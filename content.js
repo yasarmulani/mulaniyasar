@@ -11,7 +11,6 @@ const CONTENT = {
     affiliation: "Qkrishi",
     email: "mulaniyhofficial@gmail.com",
     profileImage: "/assets/profile.jpg",
-    institutionLogo: "/assets/institution-logo.png"
   },
 
   nav: ["About", "Experience", "Research", "Publications", "Projects", "Talks", "Contact"],

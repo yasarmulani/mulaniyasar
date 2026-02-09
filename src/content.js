@@ -1,11 +1,12 @@
+import profilePic from './assets/profile.jpg';
+
 const CONTENT = {
   header: {
     name: "Yasar Mulani",
     role: "Research Software Engineer",
     affiliation: "Qkrishi",
     email: "mulaniyhofficial@gmail.com",
-    profileImage: "/assets/profile.jpg",
-    institutionLogo: "/assets/institution-logo.png"
+    profileImage: profilePic,
   },
 
   nav: ["About", "Experience", "Research", "Publications", "Projects", "Talks", "Contact"],

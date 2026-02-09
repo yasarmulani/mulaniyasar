@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import CONTENT from "./content";
+import defaultProfilePic from "./assets/profile.jpg";
 import { Github, Linkedin, GraduationCap, Mail } from 'lucide-react'
+
 
 const SocialIcons = ({ profiles, className = "" }) => (
   <div className={`flex gap-4 ${className}`}>
@@ -26,7 +28,7 @@ const Header = ({ h, profiles }) => (
   <div className="max-w-3xl w-full mx-auto px-4 py-10">
     <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
       <img
-        src={h.profileImage || "/assets/profile.jpg"}
+        src={h.profileImage || defaultProfilePic}
         alt={`${h.name} profile`}
         width="120"
         height="120"
