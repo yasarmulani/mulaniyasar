@@ -10,7 +10,7 @@ const CONTENT = {
     role: "Research Software Engineer",
     affiliation: "Qkrishi",
     email: "mulaniyhofficial@gmail.com",
-    profileImage: "/assets/profile.jpg",
+    profileImage: "/assets/profile.jpeg",
   },
 
   nav: ["About", "Experience", "Research", "Publications", "Projects", "Talks", "Contact"],

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import CONTENT from "./content";
-import defaultProfilePic from "./assets/profile.jpg";
+import defaultProfilePic from "./assets/profile.jpeg";
 import { Github, Linkedin, GraduationCap, Mail } from 'lucide-react'
 
 

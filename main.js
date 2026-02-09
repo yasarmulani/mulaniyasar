@@ -22,7 +22,7 @@ function renderHeader(root, h) {
 
   // Profile image
   const img = document.createElement('img');
-  img.src = h.profileImage || '/assets/profile.jpg';
+  img.src = h.profileImage || '/assets/profile.jpeg';
   img.alt = `${h.name} profile`;
   img.width = 120;
   img.height = 120;

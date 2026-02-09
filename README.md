@@ -23,5 +23,5 @@ npm run build
 ```
 
 Notes:
-- The original `assets/` folder is kept as-is; image paths (e.g. `/assets/profile.jpg`) are preserved.
+- The original `assets/` folder is kept as-is; image paths (e.g. `/assets/profile.jpeg`) are preserved.
 - If you want Tailwind via CDN for a quick preview instead of local build, restore the CDN script in `index.html` (not recommended for production).
